@@ -1,0 +1,21 @@
+
+/backups/
+
+# Dependencies, generated build output, and local runtime state
+**/node_modules/
+**/build/
+**/dist/
+**/.gradle/
+**/coverage/
+**/.cache/
+**/uploads/
+**/*.log
+**/.vscode/
+/homematch-web/results/
+
+# Local secrets and machine-specific credentials
+**/.env
+**/.env.*
+!**/.env.example
+**/*.keystore
+**/local.properties
